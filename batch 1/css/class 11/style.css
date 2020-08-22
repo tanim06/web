@@ -1,0 +1,51 @@
+body{
+	background-image: url("image/a.jpg");
+ 
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.from{
+	width: 70%;
+	height: 60%;
+	margin: 100px auto;
+	background :rgba(0 , 0 ,0 , .3);
+	padding: 15px; 
+	border-radius: 15px;
+
+}
+.from input{
+	display: block;
+	width: 99%;
+	background: transparent;
+	font-size: 17px;
+	border:1px solid yellow;
+	border-radius: 10px;
+    color: #fff;
+    padding: 5px;
+
+}
+
+.from label{
+  color: #fff;
+  font-size: 20px;
+  font-family: tahoma;
+  display: block;
+  margin: 8px 0px;
+}
+.from input[type="submit"]{
+	width: 200px;
+	font-size: 20px;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.from p{
+	color: #fff;
+	font-size: 20px;
+}
+.from p a{
+	color: yellow;
+	font-size: 20px;
+	font-family: tahoma;
+}

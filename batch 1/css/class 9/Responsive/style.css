@@ -1,0 +1,68 @@
+body{
+	margin: 0;
+	padding: 0px;
+}
+.head{
+	background: #800000;
+	
+	height: 180px;
+}
+.left{
+	background: #B5E61D;
+	width: 25%;
+	height: 170px;
+	 float: left;  
+
+}
+.mid{
+	background:#3F48CC;
+	width: 50%;
+	height: 170px;
+	
+	 float: left;
+
+}    
+.right{
+	background: #400040;
+	width: 25%;
+	height: 170px;
+
+	float: left;
+}  
+
+.footer{
+   background: #EFE4B0;
+  
+   height: 200px;
+}
+
+.total:after{
+	content: '' ;
+	display: block;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

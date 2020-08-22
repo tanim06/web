@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>class 17 jquery</title>
+</head>
+<style >
+    .box{
+    	background-color: red;
+    	width: 300px;
+    	height: 300px;
+    }
+</style>
+<body>
+  <h1>This is heading</h1>
+  <a href="#">Click me</a>
+  <br><br>
+  <div class="box"></div>
+   
+<script src="js/jquery.js"></script>
+
+<script>
+	
+ $('h1').css({'color' : 'blue' , 'background' : 'red' });
+
+// $('h1').html('This is paragraph');
+
+
+   $('a').click( function (){
+      $('.box').hide(function (){
+      	$('a').click(function (){
+      		 $('.box').show();
+      	});
+      });
+   });
+
+	
+
+  
+
+ 
+</script>
+
+
+</body>
+</html>

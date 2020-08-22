@@ -1,0 +1,56 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.header-area{
+	height: 200px;
+	background: pink;
+
+}
+.left-area{
+	width: 250px;
+	height: 150px;
+	display: inline;
+	background: green;
+	float: left;
+	overflow: hidden;
+}
+ .mid-area{
+     width: 250px;
+	height: 150px;
+ 	background: red;
+ 	overflow: hidden;
+ 	float: left;
+ }
+
+  .right-area{
+     width: 287px;
+	height: 150px;
+ 	background: orange;
+ 
+ 	overflow: hidden;
+ }
+
+ .footer-area{
+ 	height: 170px;
+ 	background: blue;
+ 	
+ }
+ .a{
+ 	color :blue;
+ 	font-size: 30px;
+ 	background: red;
+ 	padding:12px 0px 11px 233px;
+
+ }
+ .f{
+ 	font-size: 30px;
+ 	color: white;
+ 	border :2px double black;
+     padding: 20px 0px 20px 220px;
+ 
+ 	margin: auto;
+
+ }

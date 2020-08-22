@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>class 19</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+
+   <script type="text/javascript">
+
+   	$('document').ready(function (){
+     (function($){
+
+
+
+
+
+
+
+
+
+
+$('.b').hide();
+	 $('.main img').hide();
+	  $('.main img').show(5000);
+
+	  $('.b').show(6000);
+	  $('.sa').hide();
+
+	 $('.b').click(function (){
+	 	 $('.main img').hide( function (){
+	 	 	$('.b').hide(function (){
+	 	 		 $('.sa').show(function (){
+	 	 		 	 $('.sa').click(function (){
+	 	 		 	 	$('.sa').hide(function(){
+	 	 		 	 		 $('.main img').show(function (){
+	 	 		 	 		 	$('.b').show();
+	 	 		 	 		 });
+	 	 		 	 	});
+	 	 		 	 });
+	 	 		 });
+	 	 	});
+	 	 });
+	 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+     })(jQuery);
+   	});
+
+	
+
+
+</script>
+
+
+
+</head>
+<body>
+	<header class="main">
+		<img src="a.gif">
+		 <a class="b" href="#">Close Ads</a>  
+		<div class="sa"><a class="sd" href="#">Click here</a>to show ads again</div>  
+	</header>
+
+
+</body>
+</html>

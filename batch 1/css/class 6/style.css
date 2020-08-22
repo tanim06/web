@@ -1,0 +1,72 @@
+h2{
+	color:navy;
+	background :#6698FF;
+    text-decoration: underline;
+    font-style:italic;
+    text-align:center;
+
+      }
+u{
+	color:navy;
+	background :red;
+	font-size: 30px;
+	display:block;
+	margin: 20px ;
+	 padding: 20px;
+	
+}
+	h3.asif{
+     color:blue;
+}
+
+
+
+.mehedi{
+      width : 300px;
+      height :300px;
+      border : 5px solid green ;
+      margin: auto;
+    background: radial-gradient( green ,brown , navy , yellow);
+
+      }
+
+ .fahim{
+         width : 200px;
+      height :200px;
+      border-radius: 50%;
+      margin:  auto;
+      background: red;
+
+ }
+
+.soboj{
+	width :700px;
+    height:400px;
+    background: green;
+    margin: 50px auto;
+     overflow: hidden;
+    
+  
+}
+
+.lal{
+
+	 width : 250px;
+      height :250px;
+      border-radius: 50%;
+      background: red;
+      border: 1px solid red; 
+      margin: 60px auto ;
+      overflow: hidden;
+    
+}
+  
+.lal img{
+	width: 60%;
+	margin: 50px auto;
+	  display: block;
+
+
+}
+
+

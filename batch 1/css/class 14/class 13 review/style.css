@@ -1,0 +1,89 @@
+body{
+	margin: 0;   
+	padding: 0;
+	font-family:  tahoma;
+	font-size: 20px;
+}
+.main{
+   background: #2c2c54;
+}
+.main ul{
+	margin: 0;
+	padding: 0;
+	
+	
+}
+.main ul:after{
+	 content: '';
+	 display: block;
+	 clear: both;
+}
+	
+
+.main ul li{
+	text-decoration: none;
+	float: left;
+	list-style: none;
+	position: relative;
+}
+.main ul li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+}
+.main ul li:hover{
+	background-color: #ff5252;
+}
+
+/*DROP DOWN BOX*/
+
+.main ul ul li{
+	float: none;
+}
+.main ul ul{
+	background-color: #ff793f;
+	width: 160px;
+	display: none;
+	position: absolute;
+	top:102%;
+	left: 0;
+}
+.main ul li:hover>ul{
+	display: block;
+}
+
+
+
+.main ul ul ul{
+	background-color: black;
+	width: 160px;
+	display: none;
+	position: absolute;
+	top:0%;
+	left: 100%;
+}
+
+.main ul ul ul ul{
+	background-color: #40407a;
+	width: 160px;
+	display: none;
+	position: absolute;
+	top:0%;
+	left: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

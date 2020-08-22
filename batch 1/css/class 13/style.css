@@ -1,0 +1,79 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: tahoma;
+  
+}
+.main {
+   background-color: #e74c3c;
+}
+.main ul{
+	margin: 0;
+	padding: 0px;
+list-style: none;
+
+
+
+}
+
+.main ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.main ul li{
+   
+   float: left;
+   position: relative;
+	
+}
+.main ul li a{
+	text-decoration: none;
+	font-size: 15px;
+	padding: 10px 20px;
+	display: block;
+	color:#fff;
+}
+.main ul li:hover{
+	background-color: #f1c40f;
+}
+
+/* DROP DOWN  */
+.main ul ul li{
+	float: none;
+}
+.main ul ul{
+	background-color: #34495e;
+	display: none;
+	width: 250px;
+	position: absolute;
+	top: 100%;
+	left: 0%;
+
+}
+
+
+.main ul ul ul{
+	background-color: black;
+	display: none;
+	width: 250px;
+	position: absolute;
+	top: 0%;
+	left: 100%;
+
+}
+
+.main ul ul ul ul{
+	background-color: red;
+	display: none;
+	width: 250px;
+	position: absolute;
+	top: 0%;
+	left: 100%;
+
+}
+
+.main ul li:hover>ul{
+	display: block;
+}

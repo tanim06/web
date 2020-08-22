@@ -1,0 +1,35 @@
+h1{
+	
+	background: blue;
+	background: orange;
+	color: blue;
+	display: inline;	
+	font-size: 20p
+	}
+b{  background: red;
+	font-size: 20px;
+     padding: 10px;
+     box-shadow: 10px 10px 10px blue;
+}
+
+p{
+	
+	width: 400px;
+	margin: 10px auto;
+	text-align: left;
+	font-size: 20px;
+//	line-height: 20px;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    font-family: Algerian;
+    color: blue;
+    font-style: italic;
+
+
+
+
+ background: yellow;   
+
+
+}
+

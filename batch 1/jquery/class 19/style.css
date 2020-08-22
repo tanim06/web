@@ -1,0 +1,37 @@
+body{
+	 margin: 0;
+	 padding: 0;
+	 font-family: tahoma ;
+	 font-size: 20px;
+}
+.main{
+	width : 90%;
+height: 20%;
+	background-color:rgba(0,0,0, .4);
+	position: relative;
+	margin: 7px auto;
+
+}
+.main img{
+	display: block;
+	margin-left: 15px;
+	padding: 20px 0px;
+	width: 80%;
+
+}
+.main .b{
+	position: absolute;
+    top:0;
+    right: 0;
+    text-decoration: none;
+}
+.main .sd{
+  font-style: italic; 
+  color: blue;
+ 
+ }
+ .sa , .sd {
+  color: #233330;
+ 	padding: 5px;
+ 	margin : 0px 0px 0px 150px;
+ }
