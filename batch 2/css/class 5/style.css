@@ -1,0 +1,21 @@
+h1{
+ 		color:blue;
+ 		background: red;
+
+ 	}
+u{
+	color: yellow;
+	background: black;
+	font-size: 30px;
+	display: block;
+}
+b{
+	
+	border :2px solid  blue;
+	padding-top:7px;
+	padding-right: 4px;
+	padding-bottom: 5px;
+	padding-left: 9px;
+	padding: 12px 57px 18px 84px;
+margin: 0px 0px 0px 0px;
+}

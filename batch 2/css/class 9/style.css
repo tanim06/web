@@ -1,0 +1,21 @@
+b{
+	color: red;
+	// text-decoration: underline;
+//	font-style: italic;
+	font-size: 40px;
+	// background-color: blue;
+  //  box-shadow: -18px -16px 10px yellow;
+  text-shadow: 10px 15px 10px red;
+
+}
+p{
+	width: 500px;
+	background-color: yellow;
+	color: blue;
+	margin: 50px auto;
+	font-size: 20px;
+	font-family: Algerian;
+//	word-spacing: 10px;
+	letter-spacing: 5px;
+	text-align: justify;
+}
